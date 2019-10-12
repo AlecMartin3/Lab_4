@@ -57,30 +57,75 @@ include CMakeFiles/Lab_4.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Lab_4.dir/flags.make
 
-CMakeFiles/Lab_4.dir/main.cpp.o: CMakeFiles/Lab_4.dir/flags.make
-CMakeFiles/Lab_4.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_4.dir/main.cpp.o"
-	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/main.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Lab_4/main.cpp
+CMakeFiles/Lab_4.dir/inheritance.cpp.o: CMakeFiles/Lab_4.dir/flags.make
+CMakeFiles/Lab_4.dir/inheritance.cpp.o: ../inheritance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Lab_4.dir/inheritance.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/inheritance.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Lab_4/inheritance.cpp
 
-CMakeFiles/Lab_4.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/main.cpp.i"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Lab_4/main.cpp > CMakeFiles/Lab_4.dir/main.cpp.i
+CMakeFiles/Lab_4.dir/inheritance.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/inheritance.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Lab_4/inheritance.cpp > CMakeFiles/Lab_4.dir/inheritance.cpp.i
 
-CMakeFiles/Lab_4.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/main.cpp.s"
-	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Lab_4/main.cpp -o CMakeFiles/Lab_4.dir/main.cpp.s
+CMakeFiles/Lab_4.dir/inheritance.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/inheritance.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Lab_4/inheritance.cpp -o CMakeFiles/Lab_4.dir/inheritance.cpp.s
+
+CMakeFiles/Lab_4.dir/animal.cpp.o: CMakeFiles/Lab_4.dir/flags.make
+CMakeFiles/Lab_4.dir/animal.cpp.o: ../animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Lab_4.dir/animal.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/animal.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Lab_4/animal.cpp
+
+CMakeFiles/Lab_4.dir/animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/animal.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Lab_4/animal.cpp > CMakeFiles/Lab_4.dir/animal.cpp.i
+
+CMakeFiles/Lab_4.dir/animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/animal.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Lab_4/animal.cpp -o CMakeFiles/Lab_4.dir/animal.cpp.s
+
+CMakeFiles/Lab_4.dir/bird.cpp.o: CMakeFiles/Lab_4.dir/flags.make
+CMakeFiles/Lab_4.dir/bird.cpp.o: ../bird.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Lab_4.dir/bird.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/bird.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Lab_4/bird.cpp
+
+CMakeFiles/Lab_4.dir/bird.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/bird.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Lab_4/bird.cpp > CMakeFiles/Lab_4.dir/bird.cpp.i
+
+CMakeFiles/Lab_4.dir/bird.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/bird.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Lab_4/bird.cpp -o CMakeFiles/Lab_4.dir/bird.cpp.s
+
+CMakeFiles/Lab_4.dir/canine.cpp.o: CMakeFiles/Lab_4.dir/flags.make
+CMakeFiles/Lab_4.dir/canine.cpp.o: ../canine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Lab_4.dir/canine.cpp.o"
+	C:/cygwin64/bin/g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Lab_4.dir/canine.cpp.o -c /cygdrive/c/Users/Alec/CLionProjects/Lab_4/canine.cpp
+
+CMakeFiles/Lab_4.dir/canine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Lab_4.dir/canine.cpp.i"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/Alec/CLionProjects/Lab_4/canine.cpp > CMakeFiles/Lab_4.dir/canine.cpp.i
+
+CMakeFiles/Lab_4.dir/canine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Lab_4.dir/canine.cpp.s"
+	C:/cygwin64/bin/g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/Alec/CLionProjects/Lab_4/canine.cpp -o CMakeFiles/Lab_4.dir/canine.cpp.s
 
 # Object files for target Lab_4
 Lab_4_OBJECTS = \
-"CMakeFiles/Lab_4.dir/main.cpp.o"
+"CMakeFiles/Lab_4.dir/inheritance.cpp.o" \
+"CMakeFiles/Lab_4.dir/animal.cpp.o" \
+"CMakeFiles/Lab_4.dir/bird.cpp.o" \
+"CMakeFiles/Lab_4.dir/canine.cpp.o"
 
 # External object files for target Lab_4
 Lab_4_EXTERNAL_OBJECTS =
 
-Lab_4.exe: CMakeFiles/Lab_4.dir/main.cpp.o
+Lab_4.exe: CMakeFiles/Lab_4.dir/inheritance.cpp.o
+Lab_4.exe: CMakeFiles/Lab_4.dir/animal.cpp.o
+Lab_4.exe: CMakeFiles/Lab_4.dir/bird.cpp.o
+Lab_4.exe: CMakeFiles/Lab_4.dir/canine.cpp.o
 Lab_4.exe: CMakeFiles/Lab_4.dir/build.make
 Lab_4.exe: CMakeFiles/Lab_4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Lab_4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Lab_4.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Lab_4.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

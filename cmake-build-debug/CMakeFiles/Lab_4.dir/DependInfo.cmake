@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/main.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles/Lab_4.dir/main.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/animal.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles/Lab_4.dir/animal.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/bird.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles/Lab_4.dir/bird.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/canine.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles/Lab_4.dir/canine.cpp.o"
+  "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/inheritance.cpp" "/cygdrive/c/Users/Alec/CLionProjects/Lab_4/cmake-build-debug/CMakeFiles/Lab_4.dir/inheritance.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
