@@ -48,5 +48,9 @@ int main() {
     cout << *dynamic_cast<bird*>(b) << endl;
     cout << *dynamic_cast<canine*>(c) << endl;
 
+    delete a;
+    delete b;
+    delete c;
+    
     return 0;
 }
